@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ATeszlekSuveg" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/sotetkek</item>
+        <item name="colorPrimaryVariant">@color/vilagoskek</item>
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.ATeszlekSuveg" parent="Base.Theme.ATeszlekSuveg" />
+</resources>

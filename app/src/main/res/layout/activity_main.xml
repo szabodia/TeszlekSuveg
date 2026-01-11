@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/suveg"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/valasztoMezo"
+        android:layout_width="374dp"
+        android:layout_height="380dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/kerdes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Itt lesz a kérdés"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/opcio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            android:text="Opció1"
+            android:textColor="@color/sotetkek"
+            android:textSize="16sp"
+            app:cornerRadius="8dp" />
+
+        <Button
+            android:id="@+id/opcio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            android:text="Opció2"
+            android:textColor="@color/sotetkek"
+            android:textSize="16sp"
+            app:cornerRadius="8dp" />
+
+        <Button
+            android:id="@+id/opcio3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            android:text="Opció3"
+            android:textColor="@color/sotetkek"
+            android:textSize="16sp"
+            app:cornerRadius="8dp" />
+
+        <Button
+            android:id="@+id/opcio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            android:text="Opció4"
+            android:textColor="@color/sotetkek"
+            android:textSize="16sp"
+            app:cornerRadius="8dp" />
+
+
+        <Button
+            android:id="@+id/eredmenyActivityMegnyitasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            android:text="Eredmény megtekintése"
+            android:textColor="@color/sotetkek"
+            android:textSize="20sp"
+            app:cornerRadius="8dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
